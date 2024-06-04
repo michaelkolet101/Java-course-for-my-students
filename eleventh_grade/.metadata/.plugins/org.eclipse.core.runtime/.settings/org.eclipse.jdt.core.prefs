@@ -1,0 +1,4 @@
+#Tue Jun 04 09:45:36 IDT 2024
+eclipse.preferences.version=1
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=*.launch
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
