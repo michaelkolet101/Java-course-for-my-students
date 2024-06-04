@@ -1,0 +1,46 @@
+
+import java.util.Scanner; 
+
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+		
+		Scanner input = new Scanner(System.in);
+		
+		int buy = input.nextInt();
+		int sell = input.nextInt();
+		
+		buy = buy * 5;
+		sell = sell * 10;
+		
+		if (sell > buy)
+		{
+			System.out.print("goot proofit");
+		}
+		else{
+			System.out.print("NO proofit");
+		}
+		
+		
+		
+//		int count = 0;
+//		
+//		for (int i = 0; i < 101; ++i)
+//		{
+//			if (i % 3 == 0)
+//			{
+//				count += 1;
+//			}
+//		}
+//		
+//		System.out.println(count);
+
+	}
+
+}
